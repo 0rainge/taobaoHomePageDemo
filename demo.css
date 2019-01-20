@@ -105,19 +105,22 @@
      line-height: 35px;
      color: #ddd;
  }
- .wrapper .top-nav-wrap .ad-wrap{
+
+ .wrapper .top-nav-wrap .ad-wrap {
      width: 100%;
      height: 70px;
      background-color: #000106;
  }
- .wrapper .top-nav-wrap .ad{
+
+ .wrapper .top-nav-wrap .ad {
      width: 900px;
-     margin: 0 auto ;
+     margin: 0 auto;
  }
- .wrapper .top-nav-wrap image{
-    width: 100%;
-    height: 70px ;
-}
+
+ .wrapper .top-nav-wrap image {
+     width: 100%;
+     height: 70px;
+ }
 
 
  /* 搜索区域 */
@@ -126,11 +129,205 @@
      height: 97px;
      padding-top: 24px;
      border: 1px solid black;
+     background-color: #fff;
+ }
+
+ .wrapper .search-wrap .search-con {
+     position: relative;
+     width: 1190px;
+     height: 88px;
+     margin: 0 auto;
+     /* border: 1px solid #000 */
+ }
+
+ .wrapper .search-wrap .search-con .logo-box {
+     position: relative;
+     top: -22px;
+     display: inline-block;
+     width: 190px;
+     height: 118px;
+     /* border: 1px solid #000; */
+     background-image: url('./img/logo.gif');
+     background-size: 100% 100%;
+ }
+
+ .wrapper .search-wrap .search-con .search-box {
+     display: inline-block;
+     width: 627px;
+     height: 87px;
+     /* border: 1px solid #000; */
+     vertical-align: top;
+     margin-left: 50px;
+ }
+
+ .wrapper .search-wrap .search-con .search-box .search-t {
+     width: 627px;
+     height: 62px;
+     /* border: 1px solid #000; */
+ }
+ .wrapper .search-wrap .search-con .search-box .search-t .search-tab{
+    height: 22px;
+    margin-left: 17px;
+ }
+ .wrapper .search-wrap .search-con .search-box .search-t .search-tab ul li{
+     float: left;
+     width: 36px;
+     height: 22px;
+     color: #f40;
+     font-size: 12px;
+     line-height: 22px;
+     text-align: center;
+     margin-right: 4px;
+     
+     border-top-left-radius: 6px;
+     border-top-right-radius: 6px;
+     cursor: pointer;
+
+ }
+ .wrapper .search-wrap .search-con .search-box .search-t .search-tab ul li:hover{
+     background-color: #ffeee5;
+ }
+ .wrapper .search-wrap .search-con .search-box .search-t .search-tab ul li.select{
+     color: #fff;
+     font-weight: 700;
+     background: linear-gradient(to right,#ff9000 0, #ff5000 100% )
+ }
+ .wrapper .search-wrap .search-con .search-box .search-t .search-panel{
+     width: 627px;
+     height: 40px;
+     /* border: 1px solid #000; */
+     position: relative;
+ }
+ .wrapper .search-wrap .search-con .search-box .search-t .search-panel form{
+
+ }
+ .wrapper .search-wrap .search-con .search-box .search-t .search-panel form .btn{
+     width: 74 px;
+     height: 40px;
+     /* border: 1px  solid #000000; */
+     position: absolute;
+     top: 0;
+     right: 0;
+     border-bottom-right-radius: 20px;
+     border-top-right-radius: 20px;
+     overflow: hidden;
+}
+.wrapper .search-wrap .search-con .search-box .search-t .search-panel form .btn button{
+    border: none;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right,#ff9000 0,#ff5000 100%);
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    cursor:pointer;
+}
+
+.wrapper .search-wrap .search-con .search-box .search-t .search-panel form .search-inp-box{
+    width:  551px;
+    height: 36px;
+    border: 2px solid #ff5000;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    overflow: hidden;
+}
+.wrapper .search-wrap .search-con .search-box .search-t .search-panel form .search-inp-box .search-inp{
+    height: 36px;
+    width: 472px;
+    overflow: hidden;
+}
+.wrapper .search-wrap .search-con .search-box .search-t .search-panel form .search-inp-box .search-inp input{
+    height: 24px;
+    width: 472px;
+    overflow: hidden;
+    padding: 6px 16px;
+    border: none;
+    outline: 0;
+    text-indent: 10px;
+}
+
+.wrapper .search-wrap .search-con .search-box .magnifier,
+.wrapper .search-wrap .search-con .search-box .camera{
+    display: inline-block;
+    position: absolute;
+}
+
+.wrapper .search-wrap .search-con .search-box .magnifier{
+
+    width: 12px;
+    height: 14px;
+    top: 11px;
+    left: 14px;
+    background-image: url('./img/fdj.png');
+    background-size: 100% 100%;
+    /* border: 1px solid #000; */
+}
+.wrapper .search-wrap .search-con .search-box .camera{
+    width: 20px;
+    height: 22px;
+    top: 11px;
+    right: 120px;
+    background-image: url('./img/camera.png');
+    background-size: 100% 100%;
+}
+
+ .wrapper .search-wrap .search-con .search-box .search-bl {
+     width:627px;
+     height: 20px;
+     /* border: 1px solid red;  */
+ }
+ .wrapper .search-wrap .search-con .search-box .search-bl a{
+     font-size: 12px;
+     margin-right: 7px;
+ }
+ .wrapper .search-wrap .search-con .search-box .search-bl a.active,
+ .wrapper .search-wrap .search-con .search-box .search-bl a:hover
+ {
+     color: #ff5000;
+ }
+
+ .wrapper .search-wrap .search-con .code-box {
+     position: relative;
+     display: inline-block;
+     width: 70px;
+     height: 90px;
+     border: 1px solid #eee;
+     vertical-align: top;
+     margin-left: 120px; 
+ }
+ .wrapper .search-wrap .search-con .code-box .phone{
+     color: #ff5000;
+     font-size: 14px;
+     line-height: 20px;
+     margin-left: 4px;
+ }
+ .wrapper .search-wrap .search-con .code-box .code{
+     display: inline-block;
+     width: 62px;
+     height: 62px;
+     background: url('./img/orange.jpeg') no-repeat ;
+     background-size: 100% 100%;
+     margin: 0 auto;
+     margin-left: 4px;
+ }
+
+ .wrapper .search-wrap .search-con .code-box .close{
+     position: absolute;
+     display: inline-block;
+     top: 0;
+     left: -18px;
+     border: 1px solid #eee;
+     color: #ddd;
+     font-size: 14px;
+     width: 16px;
+     height: 16px;
+     text-align: center;
+     line-height: 16px;
  }
 
  /* 搜索下的导航条 */
  .wrapper .screen-nav {
-     width: 1190px;
+     width:  1190px;
      height: 30px;
      background-color: #f40;
      margin: 0px auto;
@@ -142,4 +339,5 @@
      height: 632px;
      border: 1px solid red;
      margin: 0 auto;
+    
  }
