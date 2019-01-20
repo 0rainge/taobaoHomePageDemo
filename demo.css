@@ -23,7 +23,7 @@
  .wrapper .top-nav-wrap {
      width: 100%;
      height: 105px;
-     border: 1px solid #000;
+     /* border: 1px solid #000; */
  }
 
  .wrapper .top-nav-wrap .top-nav {
@@ -108,9 +108,10 @@
  .wrapper .top-nav-wrap .ad-wrap{
      width: 100%;
      height: 70px;
+     background-color: #000106;
  }
  .wrapper .top-nav-wrap .ad{
-     width: 1190px;
+     width: 900px;
      margin: 0 auto ;
  }
  .wrapper .top-nav-wrap image{
