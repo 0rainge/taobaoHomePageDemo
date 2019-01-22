@@ -649,12 +649,12 @@
 
  }
 
- .wrapper .screen-box .col-right .member .member-foot a{
+ .wrapper .screen-box .col-right .member .member-foot a {
      display: inline-block;
      height: 25px;
      width: 75px;
-     background: linear-gradient(to right,#ff5000 0, #ff6f06 100%);
-     border-radius:  4px; 
+     background: linear-gradient(to right, #ff5000 0, #ff6f06 100%);
+     border-radius: 4px;
      text-align: center;
      line-height: 25px;
      color: #fff;
@@ -662,18 +662,18 @@
      font-weight: 700;
  }
 
- .wrapper .screen-box .col-right .member .member-foot a.login{
+ .wrapper .screen-box .col-right .member .member-foot a.login {
      width: 92px;
 
  }
 
- .wrapper .screen-box .col-right .message{
+ .wrapper .screen-box .col-right .message {
      width: 290px;
      height: 26px;
      /* border: 1px solid #000000; */
  }
 
- .wrapper .screen-box .col-right .message a{
+ .wrapper .screen-box .col-right .message a {
      display: inline-block;
      width: 100%;
      height: 100%;
@@ -687,78 +687,183 @@
  }
 
  .wrapper .screen-box .col-right .message a span {
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    /* border: 1px solid #000000; */
-    position: absolute;
-    top: 7px;
-    right: 52px;
-    background-image: url('./img/ysj.png');
-    background-size: 100% 100%; 
- }
- .wrapper .screen-box .col-right .notice{
-      height: 98px;
-      width: 100%;
-      padding-top: 10px;
-      border-bottom: 1px solid #000000; 
+     display: inline-block;
+     width: 10px;
+     height: 10px;
+     /* border: 1px solid #000000; */
+     position: absolute;
+     top: 7px;
+     right: 52px;
+     background-image: url('./img/ysj.png');
+     background-size: 100% 100%;
  }
 
- .wrapper .screen-box .col-right .notice li{
-     float: left  ;
+ .wrapper .screen-box .col-right .notice {
+     height: 98px;
+     width: 100%;
+     padding-top: 10px;
+     border-bottom: 1px solid #000000;
  }
 
- .wrapper .screen-box .col-right .notice .title{
-      height: 24px;
-      width: 100%;
-      padding: 0 8px;
-      /* border-bottom: 1px solid #000000; */
-      /* box-sizing: border-box; */
-      
+ .wrapper .screen-box .col-right .notice li {
+     float: left;
  }
 
- .wrapper .screen-box .col-right .notice .title  li{
+ .wrapper .screen-box .col-right .notice .title {
+     height: 24px;
+     width: 100%;
+     padding: 0 8px;
+     /* border-bottom: 1px solid #000000; */
+     /* box-sizing: border-box; */
+
+ }
+
+ .wrapper .screen-box .col-right .notice .title li {
      width: 50px;
      height: 20px;
      margin: 0 11px;
  }
 
- .wrapper .screen-box .col-right .notice .title li a{
-    color: #3c3c3c;
-    font-size: 13px;
-    line-height: 20px; 
-    padding: 0 2px;
+ .wrapper .screen-box .col-right .notice .title li a {
+     color: #3c3c3c;
+     font-size: 13px;
+     line-height: 20px;
+     padding: 0 2px;
  }
 
- 
- .wrapper .screen-box .col-right .notice .title li a.active{
+
+ .wrapper .screen-box .col-right .notice .title li a.active {
      font-weight: 700;
      border-bottom: 2px solid #f40;
  }
 
  .wrapper .screen-box .col-right .notice .content li a.active,
  .wrapper .screen-box .col-right .notice .content li a:hover,
- .wrapper .screen-box .col-right .notice .title li a:hover{
+ .wrapper .screen-box .col-right .notice .title li a:hover {
      color: #f40;
  }
 
- .wrapper .screen-box .col-right .notice .content{
+ .wrapper .screen-box .col-right .notice .content {
      width: 100%;
      height: 50px;
      padding: 5px;
      /* border-bottom: 1px solid #000000;  */
      /* background-color: #6c6c6c;*/
-     box-sizing: border-box; 
+     box-sizing: border-box;
  }
 
- .wrapper .screen-box .col-right .notice .content li{
+ .wrapper .screen-box .col-right .notice .content li {
      width: 130px;
      height: 25px;
-     line-height: 25px; 
+     line-height: 25px;
      text-align: center;
  }
 
- .wrapper .screen-box .col-right .notice .content li a{
-     font-size: 12px; 
+ .wrapper .screen-box .col-right .notice .content li a {
+     font-size: 12px;
      color: #3c3c3c;
+ }
+
+ .wrapper .screen-box .col-right .module {
+     width: 100%;
+     height: 230px;
+     /* border:  1px solid #000000;  */
+ }
+
+ .wrapper .screen-box .col-right .module ul li {
+     float: left;
+     width: 71px;
+     height: 75px;
+     border: 1px solid #eee;
+     box-sizing: border-box;
+ }
+
+ .wrapper .screen-box .col-right .module ul li:hover{
+     border: 1px solid #f40;
+ }
+
+ .wrapper .screen-box .col-right .module ul li:hover a p{
+     color: #f40;
+ }
+
+ .wrapper .screen-box .col-right .module ul li a {
+     display: block;
+     text-align: center;
+ }
+
+ .wrapper .screen-box .col-right .module ul li a span {
+     display: inline-block;
+     width: 24px;
+     height: 24px;
+     /* border: 1px solid #000000; */
+     background: url('./img/pics.png');
+     margin-top: 10px;
+ }
+
+ .wrapper .screen-box .col-right .module ul li a span.icon1 {
+     background-position: 0 0;
+
+ }
+
+ .wrapper .screen-box .col-right .module ul li a span.icon2 {
+     background-position: 0 -88px;
+
+ }
+
+ .wrapper .screen-box .col-right .module ul li a span.icon3 {
+     background-position: 0 -44px;
+
+ }
+
+ .wrapper .screen-box .col-right .module ul li a span.icon4 {
+     background-position: 0 -132px;
+
+ }
+
+ .wrapper .screen-box .col-right .module ul li a span.icon5 {
+     background-position: 0 -176px;
+
+ }
+
+ .wrapper .screen-box .col-right .module ul li a span.icon6 {
+     background-position: 0 -220px;
+
+ }
+
+ .wrapper .screen-box .col-right .module ul li a span.icon7 {
+     background-position: 0 -264px;
+
+ }
+
+ .wrapper .screen-box .col-right .module ul li a span.icon8 {
+     background-position: 0 -176px;
+
+ }
+
+ .wrapper .screen-box .col-right .module ul li a span.icon9 {
+     background-position: 0 0px;
+
+ }
+
+ .wrapper .screen-box .col-right .module ul li a span.icon10 {
+     background-position: 0 -220px;
+
+ }
+
+ .wrapper .screen-box .col-right .module ul li a span.icon11 {
+     background-position: 0 -132px;
+
+ }
+
+ .wrapper .screen-box .col-right .module ul li a span.icon12 {
+     background-position: 0 -44px;
+
+ }
+
+
+
+
+ .wrapper .screen-box .col-right .module ul li a p {
+     color: #333;
+     font-size: 12px;
  }
