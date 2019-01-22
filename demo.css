@@ -697,3 +697,45 @@
     background-image: url('./img/ysj.png');
     background-size: 100% 100%; 
  }
+ .wrapper .screen-box .col-right .notice{
+      height: 98px;
+      width: 100%;
+      padding-top: 10px;
+      border-bottom: 1px solid #000000; 
+ }
+
+ .wrapper .screen-box .col-right .notice li{
+     float: left  ;
+ }
+
+ .wrapper .screen-box .col-right .notice .title{
+      height: 24px;
+      width: 100%;
+      padding: 0 8px;
+      /* border-bottom: 1px solid #000000; */
+      /* box-sizing: border-box; */
+      
+ }
+
+ .wrapper .screen-box .col-right .notice .title  li{
+     width: 50px;
+     height: 20px;
+     margin: 0 11px;
+ }
+
+ .wrapper .screen-box .col-right .notice .title li a{
+    color: #3c3c3c;
+    font-size: 13px;
+    line-height: 20px; 
+    padding: 0 2px;
+ }
+
+ .wrapper .screen-box .col-right .notice .title li a.active{
+     font-weight: 700;
+     border-bottom: 2px solid #f40;
+ }
+
+ .wrapper .screen-box .col-right .notice .title li a:hover{
+     color: #f40;
+
+ }
