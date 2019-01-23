@@ -556,7 +556,9 @@
      float: left;
      width: 290px;
      height: 632px;
-     border: 1px solid #000000;
+     /* border: 1px solid #000000; */
+     background-color: #fff;
+     margin-left:  9px;
  }
 
  .wrapper .screen-box .col-right .member {
@@ -702,7 +704,7 @@
      height: 98px;
      width: 100%;
      padding-top: 10px;
-     border-bottom: 1px solid #000000;
+     /* border-bottom: 1px solid #000000; */
  }
 
  .wrapper .screen-box .col-right .notice li {
@@ -753,10 +755,11 @@
  }
 
  .wrapper .screen-box .col-right .notice .content li {
-     width: 130px;
+     width: 120px;
      height: 25px;
      line-height: 25px;
-     text-align: center;
+     padding-left: 12px;
+     text-align: left;
  }
 
  .wrapper .screen-box .col-right .notice .content li a {
@@ -778,12 +781,12 @@
      box-sizing: border-box;
  }
 
- .wrapper .screen-box .col-right .module ul li:hover{
+ .wrapper .screen-box .col-right .module ul li:hover {
      border: 1px solid #f40;
  }
 
- .wrapper .screen-box .col-right .module ul li:hover a p{
-     color: #f40;
+ .wrapper .screen-box .col-right .module ul li:hover a p {
+     color: #f40
  }
 
  .wrapper .screen-box .col-right .module ul li a {
@@ -861,9 +864,43 @@
  }
 
 
-
-
  .wrapper .screen-box .col-right .module ul li a p {
      color: #333;
      font-size: 12px;
+ }
+ .wrapper .screen-box .col-right .app{
+     width: 100%;
+     height: 110px;
+     /* border: 1px solid #000000; */
+ }
+
+ .wrapper .screen-box .col-right .app h3{
+     font-size: 14px;
+     line-height: 30px;
+     padding-left: 14px;
+
+ }
+
+ .wrapper .screen-box .col-right .app h3 .more{
+      /* float: right; */
+      font-size: 13px;
+      font-weight: 300px;
+      float: right;
+      padding-right: 14px;
+ }
+ .wrapper .screen-box .col-right .app h3 .more:hover{
+     color: #f40;
+ }
+
+ .wrapper .screen-box .col-right .app ul li{
+     float: left;
+     width: 35px; 
+     margin: 0 11px;
+     /* border: 1px solid #000000; */
+ }
+ .wrapper .screen-box .col-right .app img{
+      width: 100%;
+      height: 100%;
+      /* margin: 10px; */
+      /* background:#000000; */
  }
