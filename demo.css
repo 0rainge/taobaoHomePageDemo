@@ -6,14 +6,21 @@
      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
  }
 
+
+
  html,
  body {
      width: 100%;
      height: 100%;
      background-color: #f4f4f4;
-     color: #3c3c3c;
+     /* color: #3C3C3C; */
      overflow-x: hidden;
  }
+
+ a {
+     color: #3c3c3c;
+ }
+
 
  .wrapper {
      width: 100%;
@@ -423,6 +430,7 @@
      height: 522px;
      border: 1px solid #f40;
      border-top: none;
+     background-color: #fff;
  }
 
  .wrapper .screen-box .main .main-inner .inner-left ul li {
@@ -473,6 +481,11 @@
      padding: 8px;
  }
 
+ .wrapper .screen-box .main .main-inner .inner-content .pic-box img {
+     width: 100%;
+     height: 100%;
+ }
+
  .wrapper .screen-box .main .main-inner .inner-content .inner-mall {
      width: 520px;
      height: 230px;
@@ -500,7 +513,7 @@
  .wrapper .screen-box .main .main-bottom {
      width: 890px;
      height: 110px;
-     background-color: #f40;
+     /* background-color: #f40; */
  }
 
  .wrapper .screen-box .main .main-bottom .content {
@@ -553,12 +566,14 @@
 
  /* 右侧部分 */
  .wrapper .screen-box .col-right {
+     margin-top: 8px;
      float: left;
      width: 290px;
      height: 632px;
      /* border: 1px solid #000000; */
      background-color: #fff;
-     margin-left:  9px;
+     margin-left: 9px;
+     /* padding-top: 8px;  */
  }
 
  .wrapper .screen-box .col-right .member {
@@ -769,20 +784,22 @@
 
  .wrapper .screen-box .col-right .module {
      width: 100%;
-     height: 230px;
-     /* border:  1px solid #000000;  */
+     height: 240px;
  }
+
 
  .wrapper .screen-box .col-right .module ul li {
      float: left;
-     width: 71px;
+     width: 72px;
      height: 75px;
      border: 1px solid #eee;
      box-sizing: border-box;
+     /* max-width: 0px 0px; */
  }
 
  .wrapper .screen-box .col-right .module ul li:hover {
      border: 1px solid #f40;
+     /* border-bottom: 1px solid #f40; */
  }
 
  .wrapper .screen-box .col-right .module ul li:hover a p {
@@ -868,39 +885,43 @@
      color: #333;
      font-size: 12px;
  }
- .wrapper .screen-box .col-right .app{
+
+ .wrapper .screen-box .col-right .app {
      width: 100%;
-     height: 110px;
+     height: 105px;
      /* border: 1px solid #000000; */
  }
 
- .wrapper .screen-box .col-right .app h3{
+ .wrapper .screen-box .col-right .app h3 {
      font-size: 14px;
      line-height: 30px;
      padding-left: 14px;
+     font-weight: 600;
 
  }
 
- .wrapper .screen-box .col-right .app h3 .more{
-      /* float: right; */
-      font-size: 13px;
-      font-weight: 300px;
-      float: right;
-      padding-right: 14px;
+ .wrapper .screen-box .col-right .app h3 .more {
+     color: #666;
+     font-size:13px;
+     
+     float: right;
+     padding-right: 14px;
  }
- .wrapper .screen-box .col-right .app h3 .more:hover{
+
+ .wrapper .screen-box .col-right .app h3 .more:hover {
      color: #f40;
  }
 
- .wrapper .screen-box .col-right .app ul li{
+ .wrapper .screen-box .col-right .app ul li {
      float: left;
-     width: 35px; 
+     width: 35px;
      margin: 0 11px;
      /* border: 1px solid #000000; */
  }
- .wrapper .screen-box .col-right .app img{
-      width: 100%;
-      height: 100%;
-      /* margin: 10px; */
-      /* background:#000000; */
+
+ .wrapper .screen-box .col-right .app img {
+     width: 100%;
+     height: 100%;
+     /* margin: 10px; */
+     /* background:#000000; */
  }
