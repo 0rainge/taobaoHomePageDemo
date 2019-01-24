@@ -4,7 +4,7 @@
 
 ## 1. demo展示
 
-![image](https://raw.githubusercontent.com/0rainge/taobaoHomePageDemo/master/img/demoPage.png)
+![image](https://github.com/0rainge/taobaoHomePageDemo/blob/master/doc_img/demoPage.png?raw=true)
 
 ## 2. 涉及的问题
 
