@@ -122,11 +122,11 @@ overflow-x: hidden;
 
 ##### 拿到字体颜色
 
-![image](https://github.com/0rainge/taobaoHomePageDemo/blob/master/img/get-font-color.png?raw=true)
+![image](https://github.com/0rainge/taobaoHomePageDemo/blob/master/doc_img/get-font-color.png?raw=true)
 
 ##### 如何看高度：
 
-![image](https://github.com/0rainge/taobaoHomePageDemo/blob/master/img/getHeight.png?raw=true)
+![image](https://github.com/0rainge/taobaoHomePageDemo/blob/master/doc_img/getHeight.png?raw=true)
 97+24:height97 padding-top24
 
 导航条部分 不占100% 屏幕大于的时候做居中处理的,大范围的展示区 ,2和3中有导航条 缩小部分没有横向滚动条 
